@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/logo.png" alt="ícone de festa">
+            <p class="hero__text">
+                Aceite logo o seu convite<span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/12/2025 ás 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Aceitar
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--evento">
+        <div class="container" data-aos="flip-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre o evento</h2>
+                <p class="event__details__description">
+                    O evento de aniversário contará com uma decoração temática, comidas e bebidas variadas, um bolo especial, música animada e atividades interativas para os convidados. Além disso, haverá momentos especiais como parabéns, brindes e, dependendo do evento, jogos, pista de dança ou até atrações personalizadas para garantir a diversão de todos.
+                </p>
+            </div>
+            <img class="event__image" src="./images/evento.png" alt="aniversario">
+        </div>
+    </section>
+    <section class="event event--cardapio event--image-left">
+        <div class="container" data-aos="flip-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Cardápio</h2>
+                <p class="event__details__description">
+                    O cardápio do evento contará com petiscos variados, pratos principais saborosos e uma seleção de doces e sobremesas. Entre as opções, haverá salgadinhos, lanches, pratos quentes ou frios (dependendo do estilo da festa) e, claro, um bolo especial para o momento dos parabéns. Bebidas refrescantes, como sucos, refrigerantes e coquetéis, também estarão disponíveis para os convidados.
+                </p>
+            </div>
+            <img class="event__image" src="./images/evento2.png" alt="churrasco">
+        </div>
+    </section>
+    <section class="event event--local">
+        <div class="container" data-aos="flip-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Local</h2>
+                <p class="event__details__description">
+                    O evento será realizado em um local espaçoso e aconchegante, ideal para acomodar todos os convidados com conforto. O ambiente contará com uma decoração temática, áreas para interação, espaço para dança ou atividades, além de uma estrutura preparada para garantir uma experiência agradável e divertida para todos.
+                </p>
+            </div>
+            <img class="event__image" src="./images/local.png" alt="casa na praia">
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
